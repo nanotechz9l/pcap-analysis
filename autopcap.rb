@@ -55,7 +55,13 @@ end
   puts "-" * title.size
   puts title
   puts "-" * title.size
-	x.puts "\n(source ipaddr port) => (dest ipaddr port)".foreground(:yellow).bright
+	
+	x.puts "\nTCP total connections: ".foreground(:yellow).bright
+	x.puts "\nTCP closed: ".foreground(:yellow).bright
+	x.puts "TCP open: ".foreground(:yellow).bright
+	x.puts "TCP filtered: ".foreground(:yellow).bright
+	x.puts "\nTCP packets: ".foreground(:yellow).bright
+	x.puts "(source ipaddr port) => (dest ipaddr port)".foreground(:yellow).bright
 	puts "\n(source ipaddr port) => (dest ipaddr port)".foreground(:yellow).bright
 
 	PacketFu::PcapFile.read_packets(file) do |pkt|
