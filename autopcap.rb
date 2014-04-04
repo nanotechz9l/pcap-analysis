@@ -39,7 +39,7 @@ else
 end
 
   ### TCP banner
-  title = "[+] TCP Protocol Breakdown '#{$0}'".foreground(:white).bright
+  title = "[+] TCP Protocol Breakdown '#{infile}'".foreground(:white).bright
   puts "-" * title.size
   puts title
   puts "-" * title.size
