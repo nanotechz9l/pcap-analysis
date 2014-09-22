@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require 'packetfu'; require 'pcap_tools'; require 'rainbow'
+require 'packetfu'; require 'pcap_tools'; require 'rainbow/ext/string'
 # API dox http://planb-security.net/packetfu/doc/
 
 # TO-DO:
